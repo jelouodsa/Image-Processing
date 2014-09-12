@@ -11,6 +11,6 @@ int main(int argc, char **argv){
 	}
 
 	m.readImage(argv);
-	print();
+	m.writeImage(argv);
 	return 0;
 }
