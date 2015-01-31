@@ -4,11 +4,12 @@
 class ImageProcessing{
 public:
 	//variables ... image headers
-	int numberOfColumns, numberOfRows, numberOfBands, highVal, totalPixels, header;
-	unsigned char * image;
+	int numberOfColumns, numberOfRows, numberOfBands, highVal, totalPixels, header, highHisto;
+	unsigned char * image, * histogram, * outimageHistogram;
 	//functions
-	void readImage(char **argv);
-	void writeImage(char **argv);
+	void readImage(char **argv, int k);
+	void writeImage(char **argv, int k);
+	void calculateHistogram(char **argv, int k);	
 
 };
 
