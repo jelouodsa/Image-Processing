@@ -7,6 +7,7 @@ This library currently has the functionality of
 
 1) Read image
 2) Write image
+3) Create histogram
 
 Running the library
 ===================
